@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+
+}
+
+ul{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 45px;
+    gap: 10px;
+    
+    
+}
+
+li{
+    list-style: none;
+    margin-right: 5px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.column{
+    column-count: 4;
+    column-width: 100px;
+    column-gap: 100px;
+    column-rule: 5px solid #ccc;
+    padding: 10px 30px;
+}
+.column p{
+    margin-top: 0;
+    margin-bottom: 0;
+}

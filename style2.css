@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: cadetblue;
+}
+
+.main-container {
+  width: 950px;
+  margin: 20px auto;
+}
+
+header {
+  text-align: center;
+}
+
+.container {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.zone {
+  border: 1px solid #6666;
+  background-color: aqua;
+  padding: 15px;
+  text-transform: capitalize;
+}
+.zone:first-child{
+    background-color: brown;
+    color: aliceblue;
+}
+
+.zone:last-of-type{
+    
+    background-color: rgb(42, 48, 165);
+    color: aliceblue;
+}
